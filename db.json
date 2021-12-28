@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "prince dwivedi",
+      "email": "prince@gmail.com",
+      "address": "indore",
+      "mobile": "9897456789",
+      "id": 1
+    },
+    {
+      "name": "john",
+      "email": "johndoe@gmail.com",
+      "address": "indore",
+      "mobile": "9897456789",
+      "id": 2
+    },
+    {
+      "name": "SRISHTI DUBEY",
+      "email": "SRISHTI@GMAIL.COM",
+      "address": "INDORE",
+      "mobile": "9893456789",
+      "id": 3
+    },
+    {
+      "name": "vikas chouhan",
+      "email": "vikas@gmail.com",
+      "address": "dewas",
+      "mobile": "1234567890",
+      "id": 5
+    }
+  ]
+}
