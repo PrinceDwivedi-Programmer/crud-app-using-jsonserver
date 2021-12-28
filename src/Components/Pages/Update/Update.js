@@ -27,12 +27,20 @@ const Update = () => {
       e.preventDefault();
       toast.error("please fill in all fields");
     }
+    else{
+
+      toast.success("Contact Updated Successfully")
+    }
   };
   const formSubmit = async (e) => {
     e.preventDefault();
     await axios.put(`http://localhost:3003/users/${id}`, user);
-    navigate("/list");
-  };
+    setTimeout(() =>{
+
+      navigate("/list");
+
+    }, 1600)
+      };
   const loadUser = async () => {
     const result = await axios.get(`http://localhost:3003/users/${id}`);
     console.log(result);
